@@ -55,7 +55,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 #############################################
 # Order-only phony target for AK2_Lab2
 
-build cmake_order_depends_target_ak2_lab_2: phony || libcalculator.a
+build cmake_order_depends_target_AK2_Lab2: phony || libcalculator.a
 build CMakeFiles/AK2_Lab2.dir/main.cpp.o: CXX_COMPILER__AK2_Lab2 ../main.cpp || cmake_order_depends_target_AK2_Lab2
   DEP_FILE = CMakeFiles/AK2_Lab2.dir/main.cpp.o.d
   OBJECT_DIR = CMakeFiles/AK2_Lab2.dir
@@ -118,7 +118,7 @@ build calculator: phony libcalculator.a
 #############################################
 # The main all target.
 
-build all: phony ak2_lab_2 libcalculator.a
+build all: phony AK2_Lab2 libcalculator.a
 
 #############################################
 # Make the all target the default.
